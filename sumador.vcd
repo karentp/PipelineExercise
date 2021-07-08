@@ -1,0 +1,323 @@
+$date
+	Wed Jul  7 21:20:59 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module bancopruebas_sumador $end
+$var wire 4 ! sum30_dd [3:0] $end
+$var wire 1 " reset_L $end
+$var wire 4 # idx_dd [3:0] $end
+$var wire 4 $ dataB [3:0] $end
+$var wire 4 % dataA [3:0] $end
+$var wire 1 & clk $end
+$scope module probador_sumador $end
+$var wire 4 ' sum30_dd [3:0] $end
+$var wire 4 ( idx_dd [3:0] $end
+$var reg 1 & clk $end
+$var reg 4 ) dataA [3:0] $end
+$var reg 4 * dataB [3:0] $end
+$var reg 1 " reset_L $end
+$upscope $end
+$scope module sum $end
+$var wire 1 & clk $end
+$var wire 4 + dataA [3:0] $end
+$var wire 4 , dataB [3:0] $end
+$var wire 1 " reset_L $end
+$var wire 4 - sum30_dd [3:0] $end
+$var wire 4 . idx_dd [3:0] $end
+$scope module sum $end
+$var wire 1 & clk $end
+$var wire 4 / dataA [3:0] $end
+$var wire 4 0 dataB [3:0] $end
+$var wire 1 " reset_L $end
+$var reg 2 1 acarreo [1:0] $end
+$var reg 2 2 acarreo_d [1:0] $end
+$var reg 4 3 dataA_d [3:0] $end
+$var reg 4 4 dataAant [3:0] $end
+$var reg 4 5 dataB_d [3:0] $end
+$var reg 4 6 dataBant [3:0] $end
+$var reg 4 7 idx [3:0] $end
+$var reg 4 8 idx_d [3:0] $end
+$var reg 4 9 idx_dd [3:0] $end
+$var reg 2 : sum10 [1:0] $end
+$var reg 2 ; sum10_d [1:0] $end
+$var reg 4 < sum30_d [3:0] $end
+$var reg 4 = sum30_dd [3:0] $end
+$var reg 3 > sum_conacarreo [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 >
+bx =
+b0 <
+b0 ;
+b0 :
+bx 9
+bx 8
+b0 7
+b0 6
+bx 5
+b0 4
+bx 3
+b0 2
+b0 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+0&
+bx %
+bx $
+bx #
+0"
+bx !
+$end
+#10
+b11 :
+b11 >
+bx00 !
+bx00 '
+bx00 -
+bx00 =
+b0 5
+b0 3
+b0 8
+b1 7
+b1111 6
+b1111 $
+b1111 *
+b1111 ,
+b1111 0
+b0 %
+b0 )
+b0 +
+b0 /
+1"
+1&
+#20
+0&
+#30
+b1 :
+b1 >
+b0 6
+b1 4
+b0 $
+b0 *
+b0 ,
+b0 0
+b1 %
+b1 )
+b1 +
+b1 /
+b1111 5
+b0 !
+b0 '
+b0 -
+b0 =
+b1111 <
+b11 ;
+b0 #
+b0 (
+b0 .
+b0 9
+b1 8
+b10 7
+1&
+#40
+0&
+#50
+b11 :
+b11 >
+b1 6
+b10 4
+b0 5
+b1 3
+b1111 !
+b1111 '
+b1111 -
+b1111 =
+b1 <
+b1 ;
+b1 #
+b1 (
+b1 .
+b1 9
+b10 8
+b11 7
+b1 $
+b1 *
+b1 ,
+b1 0
+b10 %
+b10 )
+b10 +
+b10 /
+1&
+#60
+0&
+#70
+b1 1
+b1 :
+b101 >
+b10 6
+b11 4
+b10 $
+b10 *
+b10 ,
+b10 0
+b11 %
+b11 )
+b11 +
+b11 /
+b11 <
+b1 5
+b10 3
+b1 !
+b1 '
+b1 -
+b1 =
+b11 ;
+b10 #
+b10 (
+b10 .
+b10 9
+b11 8
+b100 7
+1&
+#80
+0&
+#90
+b0 1
+b11 :
+b11 >
+b11 6
+b100 4
+b11 !
+b11 '
+b11 -
+b11 =
+b10 5
+b11 3
+b101 <
+b1 2
+b1 ;
+b11 #
+b11 (
+b11 .
+b11 9
+b100 8
+b101 7
+b11 $
+b11 *
+b11 ,
+b11 0
+b100 %
+b100 )
+b100 +
+b100 /
+1&
+#100
+0&
+#110
+b1 :
+b1 >
+b100 6
+b101 4
+b100 $
+b100 *
+b100 ,
+b100 0
+b101 %
+b101 )
+b101 +
+b101 /
+b111 <
+b11 5
+b100 3
+b101 !
+b101 '
+b101 -
+b101 =
+b0 2
+b11 ;
+b100 #
+b100 (
+b100 .
+b100 9
+b101 8
+b110 7
+1&
+#120
+0&
+#130
+b11 :
+b11 >
+b101 6
+b110 4
+b111 !
+b111 '
+b111 -
+b111 =
+b100 5
+b101 3
+b1001 <
+b1 ;
+b101 #
+b101 (
+b101 .
+b101 9
+b110 8
+b111 7
+b101 $
+b101 *
+b101 ,
+b101 0
+b110 %
+b110 )
+b110 +
+b110 /
+1&
+#140
+0&
+#150
+b1 1
+b1 :
+b101 >
+b110 6
+b111 4
+b110 $
+b110 *
+b110 ,
+b110 0
+b111 %
+b111 )
+b111 +
+b111 /
+b1011 <
+b101 5
+b110 3
+b1001 !
+b1001 '
+b1001 -
+b1001 =
+b11 ;
+b110 #
+b110 (
+b110 .
+b110 9
+b111 8
+b1000 7
+1&

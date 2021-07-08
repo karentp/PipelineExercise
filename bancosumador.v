@@ -30,6 +30,9 @@ module bancopruebas_sumador;
 		    .reset_L		(reset_L),
 		    .dataA		(dataA[3:0]),
 		    .dataB		(dataB[3:0]));
+
+    sumador_estructural sum_estruct(/*AUTOINST*/);
+
 	probador probador_sumador(/*AUTOINST*/
 				  // Outputs
 				  .clk			(clk),

@@ -2,7 +2,7 @@ module probador(
     output reg clk,
     output reg reset_L,
     output reg [3:0] dataA, dataB,
-    input [3:0] sum30_dd, idx_dd
+    input [3:0] sum30_dd, idx_dd, sum30_dd_estruct, idx_dd_estruct
 );
 
 
